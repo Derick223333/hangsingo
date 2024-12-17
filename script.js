@@ -4,7 +4,7 @@ window.onload = function() {
 
 function getMeal() {
     const date = getCurrentDate(); // 현재 날짜 가져오기
-    const apiUrl = `https://open.neis.go.kr/hub/mealServiceDietInfo?ATPT_OFCDC_SC_CODE=J10&SD_SCHUL_CODE=7569071&MLSV_YMD=${date}&Type=json`;
+    const apiUrl = `https://open.neis.go.kr/hub/mealServiceDietInfo?ATPT_OFCDC_SC_CODE=J10&SD_SCHUL_CODE=7530135&MLSV_YMD=${date}&Type=json`;
 
     fetch(apiUrl)
         .then(response => response.json())
